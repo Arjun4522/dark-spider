@@ -40,6 +40,10 @@ Run the python script:
 
    `sudo python3 darkspider.py`
 
+## Results
+
+The scraped links are store in the 'scraped_onion_links_tree.json' file, in a tree structure.
+
 
 
 
