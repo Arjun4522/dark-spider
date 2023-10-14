@@ -43,6 +43,7 @@ Run the python script:
 ## Results
 
 The scraped links are store in the 'scraped_onion_links_tree.json' file, in a tree structure.
+![crawled3](https://github.com/Arjun4522/dark-spider/assets/94633408/fb23c96a-c422-483a-a7e9-14b544c09bca)
 
 
 
