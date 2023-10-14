@@ -11,4 +11,26 @@ Dark-spider is a dark web crawler designed to navigate and index content on the 
 
 Install the dependecies using:
 
-`pip install -r requirements.txt`
+`sudo pip install -r requirements.txt`
+
+The tor service should be installed
+
+`sudo apt install tor`
+
+## Prerequisites
+
+1. Generate tor_password using:
+
+   `tor --hash-password <secretkey>`
+
+2. Edit tor configuration file (/etc/tor/torrc):
+
+   `sudo nano /etc/tor/torrc`
+
+   Append following lines at the end of file:
+
+   `SocksPort 9050`
+   `ControlPort 9051
+    HashedControlPassword <hash_generated>`
+
+    
