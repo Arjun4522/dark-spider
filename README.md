@@ -19,7 +19,7 @@ The tor service should be installed
 
 ## Prerequisites
 
-1. Generate tor_password using:
+1. Generate 'tor_hash_password' using:
 
    `tor --hash-password <secretkey>`
 
@@ -32,6 +32,15 @@ The tor service should be installed
    `SocksPort 9050`
    
    `ControlPort 9051
-    HashedControlPassword <hash_generated>`
+    HashedControlPassword 'tor_hash_password'`
+
+## Usage
+
+Run the python script:
+
+   `sudo python3 darkspider.py`
+
+
+
 
     
