@@ -4,7 +4,7 @@ Dark-spider is a dark web crawler designed to navigate and index content on the 
 
 ## Dependencies
 
-requests: To make HTTP requests.
-BeautifulSoup: For HTML parsing.
-stem and stem.control.Controller: For controlling and switching IP addresses through the Tor network.
-socks: For configuring the session with SOCKS proxy to route traffic through Tor.
+1. requests: To make HTTP requests.
+2. BeautifulSoup: For HTML parsing.
+3. stem and stem.control.Controller: For controlling and switching IP addresses through the Tor network.
+4. socks: For configuring the session with SOCKS proxy to route traffic through Tor.
