@@ -30,6 +30,7 @@ The tor service should be installed
    Append following lines at the end of file:
 
    `SocksPort 9050`
+   
    `ControlPort 9051
     HashedControlPassword <hash_generated>`
 
