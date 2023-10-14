@@ -13,7 +13,7 @@ Install the dependecies using:
 
 `sudo pip install -r requirements.txt`
 
-The tor service should be installed
+The tor service should also be installed
 
 `sudo apt install tor`
 
