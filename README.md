@@ -34,6 +34,10 @@ The tor service should also be installed
    `ControlPort 9051
     HashedControlPassword 'tor_hash_password'`
 
+3. Restart the tor service:
+
+   `sudo systemctl restart tor`
+
 ## Usage
 
 Run the python script:
