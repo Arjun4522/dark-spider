@@ -1,6 +1,6 @@
 # dark-spider
 
-Dark-spider is a dark web crawler designed to navigate and index content on the dark web. It uses the tor service and recursively crawls through the links on various web pages, up to a specified depth. The scraped links are saved in a JSON file for further analysis or use.
+Dark-spider is a dark web crawler designed to navigate and index content on the dark web. It crawls through .onion web pages, and scrapes all the hyperlinks on those pages. The crawler goes on recursively upto a certain depth, and stores the links in a tree-like structure in json format, for futher analysis.
 
 ## Dependencies
 
@@ -42,7 +42,7 @@ Run the python script:
 
 ## Results
 
-The scraped links are store in the 'scraped_onion_links_tree.json' file, in a tree structure.
+Visual representation of the .json file.
 ![crawled3](https://github.com/Arjun4522/dark-spider/assets/94633408/fb23c96a-c422-483a-a7e9-14b544c09bca)
 
 
